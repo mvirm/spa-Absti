@@ -46,7 +46,7 @@ html {
   }
   .link a{
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none; 
     font-weight: bold; 
   }
@@ -108,7 +108,8 @@ html {
         background-color: #ffffffcc;
         border: solid 4px white;
         border-radius: 15px;
-        margin: 5px; 
+        margin: 5px;
+        margin-top: 25px; 
         width: 70%; 
         height: fit-content;
         padding-top: 5px;

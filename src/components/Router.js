@@ -12,7 +12,7 @@ const Router = () => {
     ajaxFetch({
         url: GET_ALL_CHARACTER,
         cbSuccess: async (characters) => {
-            let allCharacters = characters.results;
+            let allCharacters = characters.results.slice(0, 8);
             //console.log(allCharacters);
             $view.innerHTML = ''; 
             await allCharacters.forEach(character => {
