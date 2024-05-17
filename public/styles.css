@@ -159,43 +159,57 @@ html {
         display: none;
     }
     
-    .about{
-        background-color:#003566cc;
+    .about {
+        background-color: #003566cc;
         color: white;
         border-radius: 10px;
         margin: auto;
-        margin-top: 90px;
-        padding: 5px 20px 5px 20px;
+        padding: 5px 20px;
         width: 70%;
         height: auto;
         border: solid 4px #003566;
         font-size: 16px;
     }
+    
     .about h4 {
         font-size: 18px;
         margin-top: 1rem;
     }
-    .about p{
+    
+    .about p {
         text-align: justify;
         font-size: 16px;
         margin-top: 1rem;
     }
-    .about a{
-        color:#38b000;
+    
+    .about img {
+        width: 25%;
+        height: auto;
+        border-radius: 15px;
+        float: left; /* Flota la imagen a la izquierda */
+        margin-right: 1rem; /* Espacio a la derecha de la imagen */
+        margin-bottom: 1rem; /* Espacio debajo de la imagen */
+    }
+    
+    .about a {
+        color: #38b000;
         font-size: 16px;
         text-decoration: none;
     }
-    .about section{
+    
+    .about section {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         margin-left: 5rem;
     }
-    .about section h3{
+    
+    .about section h3 {
         margin-top: 0;
         margin-bottom: 0;
     }
-    .about section h4{
+    
+    .about section h4 {
         margin-top: 0;
         margin-bottom: 1rem;
     }

@@ -3,9 +3,11 @@ const AboutMe = () => {
     $about.className = 'about'
     $about.innerHTML = `
     <h4>¡Hola👋!</h4>
-    <p> Soy FullStack Web Developer 👩‍💻con una especialización orientada hacia el FrontEnd.
+    <h3> Soy FullStack Web Developer 👩‍💻con una especialización orientada hacia el FrontEnd.</h3>
     <br/>
-    Mi experiencia en diseño y producción en empresas textiles líderes me ha enseñado valores como la responsabilidad y la capacidad de adaptación; además de una sólida habilidad para las relaciones interpersonales, basada en la cordialidad y empatía, mientras que mi capacidad para liderar equipos hacia metas claras ha sido fundamental para obtener resultados sobresalientes 😉.
+    <div>
+    <img src='yo.JPG' alt='Vir Montoya'/>
+    <p>Mi experiencia en diseño y producción en empresas textiles líderes me ha enseñado valores como la responsabilidad y la capacidad de adaptación; además de una sólida habilidad para las relaciones interpersonales, basada en la cordialidad y empatía, mientras que mi capacidad para liderar equipos hacia metas claras ha sido fundamental para obtener resultados sobresalientes 😉.
     <br/>
     En el ámbito del desarrollo web, me desenvuelvo en el FrontEnd y BackEnd, utilizando metodologías ágiles como SCRUM y herramientas como GIT. Mi conjunto de habilidades técnicas es sólido e incluye el  dominio de HTML, CSS, JavaScript, React JS, Redux, Node JS, Express, PostgreSQL, Sequelize y Jest para pruebas unitarias. Además, tengo experiencia en el uso de frameworks CSS como Boostrap, TailwindCSS y MaterialUI🚀
     <br/>
@@ -22,6 +24,7 @@ const AboutMe = () => {
     o escribime:
     <br/>
     <a href="mailto:mvirginiamontoya@gmail.com">mvirginiamontoya@gmail.com</a></p>
+    </div>
     <section>
     <h3>ViR Montoya</h3>
     <h3>Full Stack Developer</h3>
