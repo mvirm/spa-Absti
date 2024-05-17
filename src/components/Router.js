@@ -12,7 +12,7 @@ const Router = () => {
     ajaxFetch({
         url: GET_ALL_CHARACTER,
         cbSuccess: async (characters) => {
-            let allCharacters = characters.results.slice(0, 8);
+            let allCharacters = characters.results
             //console.log(allCharacters);
             $view.innerHTML = ''; 
             await allCharacters.forEach(character => {
@@ -29,7 +29,7 @@ const Router = () => {
 } else {
     $view.innerHTML= `<h2>soy el detail</h2>`
 }
-        document.querySelector('.spinner-container').style.display = 'none';
+        // document.querySelector('.spinner-container').style.display = 'none';
 }
 
 export default Router

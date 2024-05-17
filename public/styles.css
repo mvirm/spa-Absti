@@ -12,9 +12,6 @@ html {
   body {
     margin: 0;
     overflow-x: hidden;
-    background-image: url('https://e0.pxfuel.com/wallpapers/626/213/desktop-wallpaper-rick-and-morty-abstract-rick-sanchez.jpg');
-    background-size:cover;
-    background-repeat:repeat-y;
     background-color: #003566;
   }
   
@@ -32,6 +29,7 @@ html {
     justify-content:space-evenly;
     align-items: center;
     width: 100%;
+    box-shadow: inset 0px -4px 20px rgba(0, 0, 0, 0.5);
   }
   .title {
     color: white;
@@ -76,10 +74,14 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 10rem;
     }
     .spinner {
         display: flex;
         gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
     }
     .spinner-dot {
         width: 2rem; 
@@ -99,6 +101,8 @@ html {
     .loading-text {
         margin-top: 1rem;
         font-size: 1rem; 
+        text-align: center;
+        color: white;
     };
     .card {
         background-color: #ffffffcc;
@@ -117,6 +121,7 @@ html {
         display: flex;
         flex-direction: column; 
         align-items: center; 
+        box-shadow: 3px 3px 15px black;
     }
     .card a{
         padding: 0.2rem;
