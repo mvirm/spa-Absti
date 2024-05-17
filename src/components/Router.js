@@ -26,6 +26,7 @@ const Router = () => {
     $view.innerHTML= `<h2>soy el search</h2>`
 } else if (hash === '#/about') {
    $view.appendChild(AboutMe());
+   document.querySelector('.spinner-container').style.display = 'none';
 } else {
     $view.innerHTML= `<h2>soy el detail</h2>`
 }
